@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "rmr:rhodium_ore"
+  },
+  "result": "rmr:rhodium_ingot",
+  "experience": 1.0,
+  "cookingtime": 25
+}

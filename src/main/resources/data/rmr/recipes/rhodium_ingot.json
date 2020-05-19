@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "rmr:rhodium_ore"
+  },
+  "result": "rmr:rhodium_ingot",
+  "experience": 0.7,
+  "cookingtime": 50
+}

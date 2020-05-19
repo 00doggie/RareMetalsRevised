@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "rmr:block/rhodium_block" }
+  }
+}
