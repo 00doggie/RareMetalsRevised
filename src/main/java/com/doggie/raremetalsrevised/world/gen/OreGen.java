@@ -1,5 +1,6 @@
 package com.doggie.raremetalsrevised.world.gen;
 
+import com.doggie.raremetalsrevised.init.BlockInit;
 import com.doggie.raremetalsrevised.util.RegistryHandler;
 import net.minecraft.world.biome.Biome;
 import net.minecraft.world.biome.Biomes;
@@ -16,13 +17,12 @@ public class OreGen {
 
     public static void generateOre() {
         for (Biome biome : ForgeRegistries.BIOMES) {
-            if (biome == Biomes.PLAINS) {
+
                 ConfiguredPlacement customConfig = Placement.COUNT_RANGE
-                        .configure(new CountRangeConfig(15, 5, 5, 25));
+                        .configure(new CountRangeConfig(11, 5, 5, 25));
                 biome.addFeature(GenerationStage.Decoration.UNDERGROUND_ORES, Feature.ORE
-                        .withConfiguration(new OreFeatureConfig(OreFeatureConfig.FillerBlockType.NATURAL_STONE, RegistryHandler.RHODIUM_ORE.get().getDefaultState(), 10))
+                        .withConfiguration(new OreFeatureConfig(OreFeatureConfig.FillerBlockType.NATURAL_STONE, BlockInit.RHODIUM_ORE.get().getDefaultState(), 8))
                         .withPlacement(customConfig));
             }
         }
     }
-}

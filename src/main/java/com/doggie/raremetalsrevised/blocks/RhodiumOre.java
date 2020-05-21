@@ -21,8 +21,5 @@ public class RhodiumOre extends OreBlock {
     }
 
 
-    @Override
-    protected int getExperience(Random random) {
-        return MathHelper.nextInt(random,2,10);
-    }
+
 }

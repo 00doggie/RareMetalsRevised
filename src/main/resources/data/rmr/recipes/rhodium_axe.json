@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RR",
+    "R#",
+    " #"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "R": {
+      "item": "rmr:rhodium_ingot"
+    }
+  },
+  "result": {
+    "item": "rmr:rhodium_axe"
+  }
+}

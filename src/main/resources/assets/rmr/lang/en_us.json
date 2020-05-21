@@ -3,5 +3,13 @@
   "itemGroup.Rare Metals Revised Tab": "Rare Metals Revised",
   "block.rmr.rhodium_block": "Block of Rhodium",
   "block.rmr.rhodium_ore": "Rhodium Ore",
-  "item.rmr.rhodium_sword": "Rhodium Sword"
+  "item.rmr.rhodium_sword": "Rhodium Sword",
+  "item.rmr.rhodium_pickaxe": "Rhodium Pickaxe",
+  "item.rmr.rhodium_shovel": "Rhodium Shovel",
+  "item.rmr.rhodium_axe": "Rhodium Axe",
+  "item.rmr.rhodium_hoe": "Rhodium Hoe",
+  "item.rmr.rhodium_helmet": "Rhodium Helmet",
+  "item.rmr.rhodium_chestplate": "Rhodium Chestplate",
+  "item.rmr.rhodium_leggings": "Rhodium Leggings",
+  "item.rmr.rhodium_boots": "Rhodium Boots"
 }

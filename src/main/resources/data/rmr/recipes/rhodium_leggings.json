@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RRR",
+    "R R",
+    "R R"
+  ],
+  "key": {
+    "R": {
+      "item": "rmr:rhodium_ingot"
+    }
+
+  },
+  "result": {
+    "item": "rmr:rhodium_leggings"
+  }
+}
