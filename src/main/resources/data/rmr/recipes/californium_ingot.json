@@ -1,9 +1,9 @@
 {
   "type": "minecraft:smelting",
   "ingredient": {
-    "item": "rmr:rhodium_ore"
+    "item": "rmr:californium_ore"
   },
-  "result": "rmr:rhodium_ingot",
+  "result": "rmr:californium_ingot",
   "experience": 0.7,
   "cookingtime": 75
 }

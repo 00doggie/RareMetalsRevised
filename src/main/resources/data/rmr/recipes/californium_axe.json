@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CC",
+    "C#",
+    " #"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "C": {
+      "item": "rmr:californium_ingot"
+    }
+  },
+  "result": {
+    "item": "rmr:californium_axe"
+  }
+}

@@ -1,15 +1,27 @@
 {
   "item.rmr.rhodium_ingot": "Rhodium Ingot",
+  "item.rmr.californium_ingot": "Californium  Ingot",
   "itemGroup.Rare Metals Revised Tab": "Rare Metals Revised",
   "block.rmr.rhodium_block": "Block of Rhodium",
   "block.rmr.rhodium_ore": "Rhodium Ore",
+  "block.rmr.californium_ore": "Californium Ore",
+  "block.rmr.californium_block": "Block of Californium ",
   "item.rmr.rhodium_sword": "Rhodium Sword",
+  "item.rmr.californium_sword": "Californium  Sword",
   "item.rmr.rhodium_pickaxe": "Rhodium Pickaxe",
   "item.rmr.rhodium_shovel": "Rhodium Shovel",
   "item.rmr.rhodium_axe": "Rhodium Axe",
   "item.rmr.rhodium_hoe": "Rhodium Hoe",
+  "item.rmr.californium_pickaxe": "Californium Pickaxe",
+  "item.rmr.californium_shovel": "Californium Shovel",
+  "item.rmr.californium_axe": "Californium Axe",
+  "item.rmr.californium_hoe": "Californium Hoe",
   "item.rmr.rhodium_helmet": "Rhodium Helmet",
   "item.rmr.rhodium_chestplate": "Rhodium Chestplate",
   "item.rmr.rhodium_leggings": "Rhodium Leggings",
-  "item.rmr.rhodium_boots": "Rhodium Boots"
+  "item.rmr.rhodium_boots": "Rhodium Boots",
+  "item.rmr.californium_helmet": "Californium Helmet",
+  "item.rmr.californium_chestplate": "Californium Chestplate",
+  "item.rmr.californium_leggings": "Californium Leggings",
+  "item.rmr.californium_boots": "Californium Boots"
 }

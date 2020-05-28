@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "C",
+    "C",
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "C": {
+      "item": "rmr:californium_ingot"
+    }
+  },
+  "result": {
+    "item": "rmr:californium_sword"
+  }
+}
+

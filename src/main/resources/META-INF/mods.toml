@@ -8,7 +8,7 @@ issueTrackerURL="http://my.issue.tracker/" #optional
 
 modId="rmr" #mandatory
 
-version="1.15.2-1.0.0" #mandatory
+version="1.15.2-2.0.0" #mandatory
 
 displayName="Rare Metals Revised" #mandatory
 
@@ -18,7 +18,7 @@ displayURL="http://example.com/" #optional
 
 logoFile="examplemod.png" #optional
 
-credits="TechnoVision" #optional
+credits="" #optional
 
 authors="00doggie" #optional
 

@@ -1,11 +1,9 @@
 package com.doggie.raremetalsrevised;
 
-import com.doggie.raremetalsrevised.init.BlockInit;
-import com.doggie.raremetalsrevised.init.ItemInit;
-import com.doggie.raremetalsrevised.util.RegistryHandler;
+import com.doggie.raremetalsrevised.init.Init;
 
-import com.doggie.raremetalsrevised.world.gen.OreGen;
-import net.minecraft.item.BlockItem;
+import com.doggie.raremetalsrevised.world.gen.CaliforniumGen;
+import com.doggie.raremetalsrevised.world.gen.RhodiumGen;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -14,7 +12,6 @@ import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLLoadCompleteEvent;
 import net.minecraftforge.fml.event.server.FMLServerStartingEvent;
@@ -33,8 +30,8 @@ public class RareMetalsRevised {
     public RareMetalsRevised() {
         final IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
         modEventBus.addListener(this::setup);
-        ItemInit.ITEMS.register(modEventBus);
-        BlockInit.BLOCKS.register(modEventBus);
+        Init.ITEMS.register(modEventBus);
+        Init.BLOCKS.register(modEventBus);
 
         instance = this;
         MinecraftForge.EVENT_BUS.register(this);
@@ -50,7 +47,9 @@ public class RareMetalsRevised {
 
 
     private void setup(final FMLCommonSetupEvent event) {
-        OreGen.generateOre();
+        RhodiumGen.generateOre();
+        CaliforniumGen.generateOre();
+
     }
 
     @SubscribeEvent
@@ -76,7 +75,7 @@ public class RareMetalsRevised {
             public static final ItemGroup TAB = new ItemGroup("Rare Metals Revised Tab") {
                 @Override
                 public ItemStack createIcon() {
-                    return new ItemStack(ItemInit.RHODIUM_INGOT.get());
+                    return new ItemStack(Init.RHODIUM_INGOT.get());
                 }
             };
 

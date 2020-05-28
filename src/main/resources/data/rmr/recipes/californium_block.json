@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CCC",
+    "CCC",
+    "CCC"
+  ],
+  "key": {
+    "C": {
+      "item": "rmr:californium_ingot"
+    }
+
+  },
+  "result": {
+    "item": "rmr:californium_block"
+  }
+}
