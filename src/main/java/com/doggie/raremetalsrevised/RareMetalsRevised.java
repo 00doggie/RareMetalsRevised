@@ -3,6 +3,7 @@ package com.doggie.raremetalsrevised;
 import com.doggie.raremetalsrevised.init.Init;
 
 import com.doggie.raremetalsrevised.world.gen.CaliforniumGen;
+import com.doggie.raremetalsrevised.world.gen.OsmiumGen;
 import com.doggie.raremetalsrevised.world.gen.RhodiumGen;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
@@ -49,6 +50,7 @@ public class RareMetalsRevised {
     private void setup(final FMLCommonSetupEvent event) {
         RhodiumGen.generateOre();
         CaliforniumGen.generateOre();
+        OsmiumGen.generateOre();
 
     }
 
