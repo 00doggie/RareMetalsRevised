@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "O",
+    "#",
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "O": {
+      "item": "rmr:osmium_ingot"
+    }
+  },
+  "result": {
+    "item": "rmr:osmium_shovel"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "O O",
+    "OOO",
+    "OOO"
+  ],
+  "key": {
+    "O": {
+      "item": "rmr:osmium_ingot"
+    }
+
+  },
+  "result": {
+    "item": "rmr:osmium_chestplate"
+  }
+}

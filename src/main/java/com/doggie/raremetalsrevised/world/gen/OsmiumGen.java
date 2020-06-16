@@ -17,9 +17,9 @@ public class OsmiumGen {
         for (Biome biome : ForgeRegistries.BIOMES) {
 
                 ConfiguredPlacement customConfig = Placement.COUNT_RANGE
-                        .configure(new CountRangeConfig(2, 5, 0, 28));
+                        .configure(new CountRangeConfig(2, 5, 0, 20));
                 biome.addFeature(GenerationStage.Decoration.UNDERGROUND_ORES, Feature.ORE
-                        .withConfiguration(new OreFeatureConfig(OreFeatureConfig.FillerBlockType.NATURAL_STONE, Init.RHODIUM_ORE.get().getDefaultState(), 9))
+                        .withConfiguration(new OreFeatureConfig(OreFeatureConfig.FillerBlockType.NATURAL_STONE, Init.OSMIUM_ORE.get().getDefaultState(), 9))
                         .withPlacement(customConfig));
 
             }

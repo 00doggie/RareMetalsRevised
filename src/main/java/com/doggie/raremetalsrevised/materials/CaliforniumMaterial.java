@@ -4,12 +4,15 @@ import com.doggie.raremetalsrevised.RareMetalsRevised;
 //import com.doggie.raremetalsrevised.armor.CaliforniumArmorPotion;
 
 import com.doggie.raremetalsrevised.armor.CaliforniumArmorPotion;
+import com.doggie.raremetalsrevised.effects.StonedEffect;
 import com.doggie.raremetalsrevised.tools.CaliforniumAxePotion;
 import com.doggie.raremetalsrevised.tools.CaliforniumPickaxePotion;
 import com.doggie.raremetalsrevised.tools.CaliforniumShovelPotion;
 import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.item.*;
 import net.minecraft.item.crafting.Ingredient;
+import net.minecraft.potion.EffectInstance;
+import net.minecraft.potion.Effects;
 import net.minecraft.util.LazyValue;
 import net.minecraft.util.SoundEvent;
 import net.minecraft.util.SoundEvents;

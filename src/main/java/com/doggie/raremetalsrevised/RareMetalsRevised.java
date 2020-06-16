@@ -1,13 +1,17 @@
 package com.doggie.raremetalsrevised;
 
+
+
 import com.doggie.raremetalsrevised.init.Init;
 
 import com.doggie.raremetalsrevised.world.gen.CaliforniumGen;
 import com.doggie.raremetalsrevised.world.gen.OsmiumGen;
 import com.doggie.raremetalsrevised.world.gen.RhodiumGen;
+import net.minecraft.enchantment.Enchantments;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
+import net.minecraft.world.storage.loot.functions.Smelt;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -34,6 +38,7 @@ public class RareMetalsRevised {
         Init.ITEMS.register(modEventBus);
         Init.BLOCKS.register(modEventBus);
 
+
         instance = this;
         MinecraftForge.EVENT_BUS.register(this);
     }
@@ -42,9 +47,9 @@ public class RareMetalsRevised {
         final IForgeRegistry<Item> registry = event.getRegistry();
 
 
-            final Item.Properties properties = new Item.Properties().group(RareMetalsRevised.TAB);
+        final Item.Properties properties = new Item.Properties().group(RareMetalsRevised.TAB);
 
-        }
+    }
 
 
     private void setup(final FMLCommonSetupEvent event) {
@@ -68,24 +73,21 @@ public class RareMetalsRevised {
 
 
 
-        // Custom ItemGroup TAB
+
+
+    // Custom ItemGroup TAB
 
 
 
 
 
-            public static final ItemGroup TAB = new ItemGroup("Rare Metals Revised Tab") {
-                @Override
-                public ItemStack createIcon() {
-                    return new ItemStack(Init.RHODIUM_INGOT.get());
-                }
-            };
+    public static final ItemGroup TAB = new ItemGroup("Rare Metals Revised Tab") {
+        @Override
+        public ItemStack createIcon() {
+            return new ItemStack(Init.RHODIUM_INGOT.get());
+        }
+
+
+    };
 
 }
-
-
-
-
-
-
-

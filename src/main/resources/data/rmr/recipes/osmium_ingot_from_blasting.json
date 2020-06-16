@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "rmr:osmium_ore"
+  },
+  "result": "rmr:osmium_ingot",
+  "experience": 1.0,
+  "cookingtime": 50
+}

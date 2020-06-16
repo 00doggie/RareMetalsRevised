@@ -12,7 +12,7 @@ public class OsmiumOre extends OreBlock {
         super(Properties.create(Material.IRON)
                 .hardnessAndResistance(3.0f, 4.0f)
                 .sound(SoundType.STONE)
-                .harvestLevel(3)
+                .harvestLevel(2)
                 .harvestTool(ToolType.PICKAXE));
     }
 

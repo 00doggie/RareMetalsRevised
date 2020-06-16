@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "O O",
+    "O O"
+  ],
+  "key": {
+    "O": {
+      "item": "rmr:osmium_ingot"
+    }
+
+  },
+  "result": {
+    "item": "rmr:osmium_boots"
+  }
+}

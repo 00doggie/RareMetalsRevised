@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "OOO",
+    " # ",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "O": {
+      "item": "rmr:osmium_ingot"
+    }
+  },
+  "result": {
+    "item": "rmr:osmium_pickaxe"
+  }
+}

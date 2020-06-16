@@ -1,10 +1,12 @@
 {
   "item.rmr.rhodium_ingot": "Rhodium Ingot",
+  "item.rmr.osmium_ingot": "Osmium Ingot",
   "item.rmr.californium_ingot": "Californium  Ingot",
   "itemGroup.Rare Metals Revised Tab": "Rare Metals Revised",
   "block.rmr.rhodium_block": "Block of Rhodium",
   "block.rmr.rhodium_ore": "Rhodium Ore",
   "block.rmr.osmium_ore": "Osmium Ore",
+  "block.rmr.osmium_block": "Block of Osmium",
   "block.rmr.californium_ore": "Californium Ore",
   "block.rmr.californium_block": "Block of Californium ",
   "item.rmr.rhodium_sword": "Rhodium Sword",
@@ -17,6 +19,11 @@
   "item.rmr.californium_shovel": "Californium Shovel",
   "item.rmr.californium_axe": "Californium Axe",
   "item.rmr.californium_hoe": "Californium Hoe",
+  "item.rmr.osmium_sword": "Osmium Sword",
+  "item.rmr.osmium_pickaxe": "Osmium Pickaxe",
+  "item.rmr.osmium_shovel": "Osmium Shovel",
+  "item.rmr.osmium_axe": "Osmium Axe",
+  "item.rmr.osmium_hoe": "Osmium Hoe",
   "item.rmr.rhodium_helmet": "Rhodium Helmet",
   "item.rmr.rhodium_chestplate": "Rhodium Chestplate",
   "item.rmr.rhodium_leggings": "Rhodium Leggings",
@@ -24,5 +31,10 @@
   "item.rmr.californium_helmet": "Californium Helmet",
   "item.rmr.californium_chestplate": "Californium Chestplate",
   "item.rmr.californium_leggings": "Californium Leggings",
-  "item.rmr.californium_boots": "Californium Boots"
+  "item.rmr.californium_boots": "Californium Boots",
+  "item.rmr.osmium_helmet": "Osmium Helmet",
+  "item.rmr.osmium_chestplate": "Osmium Chestplate",
+  "item.rmr.osmium_leggings": "Osmium Leggings",
+  "item.rmr.osmium_boots": "Osmium Boots",
+  "enchantment.rmr.upstep": "Upstep"
 }

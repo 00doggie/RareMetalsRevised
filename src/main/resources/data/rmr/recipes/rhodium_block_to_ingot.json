@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "R  ",
+    "   ",
+    "   "
+  ],
+  "key": {
+    "R": {
+      "item": "rmr:rhodium_block"
+    }
+
+  },
+  "result": {
+    "item": "rmr:rhodium_ingot",
+    "count": 9
+  }
+}
