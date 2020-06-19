@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "rmr:blocks/ice_crystal_block"
+  }
+}

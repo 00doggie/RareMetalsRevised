@@ -19,6 +19,8 @@ public class StonedEffect extends StatusEffect {
         super("stoned", EffectType.BENEFICIAL, 12858015);
     }
 
+
+
     public boolean func_76397_a(int duration, int amplifier) {
         return true;
     }
@@ -30,7 +32,7 @@ public class StonedEffect extends StatusEffect {
     }
 
     public void func_76394_a(LivingEntity entityLivingBaseIn, int amplifier) {
-       entityLivingBaseIn.addPotionEffect(new EffectInstance(Effects.NAUSEA,60,0, false, false));
+        entityLivingBaseIn.addPotionEffect(new EffectInstance(Effects.NAUSEA,60,0, false, false));
         if (entityLivingBaseIn instanceof MobEntity && entityLivingBaseIn.getRNG().nextInt(100) <= amplifier) {
             ((MobEntity)entityLivingBaseIn).setAttackTarget(null);
             ((MobEntity)entityLivingBaseIn).setAggroed(false);

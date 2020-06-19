@@ -2,12 +2,17 @@ package com.doggie.raremetalsrevised;
 
 
 
+
+import com.doggie.raremetalsrevised.init.EnchantmentInit;
 import com.doggie.raremetalsrevised.init.Init;
 
 import com.doggie.raremetalsrevised.world.gen.CaliforniumGen;
 import com.doggie.raremetalsrevised.world.gen.OsmiumGen;
 import com.doggie.raremetalsrevised.world.gen.RhodiumGen;
+import net.minecraft.enchantment.Enchantment;
 import net.minecraft.enchantment.Enchantments;
+import net.minecraft.enchantment.SilkTouchEnchantment;
+import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -22,6 +27,7 @@ import net.minecraftforge.fml.event.lifecycle.FMLLoadCompleteEvent;
 import net.minecraftforge.fml.event.server.FMLServerStartingEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.IForgeRegistry;
+import net.minecraftforge.registries.IForgeRegistryEntry;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -37,6 +43,7 @@ public class RareMetalsRevised {
         modEventBus.addListener(this::setup);
         Init.ITEMS.register(modEventBus);
         Init.BLOCKS.register(modEventBus);
+        EnchantmentInit.ENCHANTMENTS.register(modEventBus);
 
 
         instance = this;
@@ -56,6 +63,7 @@ public class RareMetalsRevised {
         RhodiumGen.generateOre();
         CaliforniumGen.generateOre();
         OsmiumGen.generateOre();
+
 
     }
 
@@ -89,5 +97,6 @@ public class RareMetalsRevised {
 
 
     };
+
 
 }

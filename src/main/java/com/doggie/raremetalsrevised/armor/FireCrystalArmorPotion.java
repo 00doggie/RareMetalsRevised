@@ -18,6 +18,7 @@ public class FireCrystalArmorPotion extends ArmorItem {
     }
 
 
+    @Override
     public void onArmorTick(ItemStack stack, World world, PlayerEntity player) {
         if (player.inventory.armorItemInSlot(3) != null && player.inventory.armorItemInSlot(3).getItem() == FireCrystalMaterial.fire_crystal_helmet
                 && player.inventory.armorItemInSlot(2) != null && player.inventory.armorItemInSlot(2).getItem() == FireCrystalMaterial.fire_crystal_chestplate

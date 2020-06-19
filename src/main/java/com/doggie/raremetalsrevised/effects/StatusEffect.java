@@ -16,6 +16,8 @@ public class StatusEffect extends Effect {
         setRegistryName("rmr", name);
     }
 
+
+
     public boolean hasEffect(LivingEntity entity) {
         return hasEffect(entity, this);
     }
@@ -24,5 +26,4 @@ public class StatusEffect extends Effect {
         return (entity.getActivePotionEffect(effect) != null);
     }
 }
-
 

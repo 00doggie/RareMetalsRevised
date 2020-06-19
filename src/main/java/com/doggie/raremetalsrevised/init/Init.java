@@ -28,6 +28,7 @@ public class Init {
         public static final RegistryObject<Item> OSMIUM_INGOT = ITEMS.register("osmium_ingot", ItemBase::new);
         public static final RegistryObject<Item> CALIFORNIUM_INGOT = ITEMS.register("californium_ingot", ItemBase::new);
         public static final RegistryObject<Item> FIRE_CRYSTAL = ITEMS.register("fire_crystal", ItemBase::new);
+        public static final RegistryObject<Item> ICE_CRYSTAL = ITEMS.register("ice_crystal", ItemBase::new);
 
         public static final DeferredRegister<Block> BLOCKS = new DeferredRegister<>(ForgeRegistries.BLOCKS, RareMetalsRevised.MOD_ID);
         //Blocks
@@ -42,8 +43,8 @@ public class Init {
         public static final RegistryObject<Block> CALIFORNIUM_BLOCK = BLOCKS.register("californium_block", CaliforniumBlock::new);
         public static final RegistryObject<Block> FIRE_CRYSTAL_BLOCK = BLOCKS.register("fire_crystal_block", FireCrystalBlock::new);
         public static final RegistryObject<Block> FIRE_STONE = BLOCKS.register("fire_stone", () -> new FireStone(Block.Properties.from(Blocks.IRON_ORE)));
-
-
+        public static final RegistryObject<Block> ICE_STONE = BLOCKS.register("ice_stone", () -> new IceStone(Block.Properties.from(Blocks.IRON_ORE)));
+        public static final RegistryObject<Block> ICE_CRYSTAL_BLOCK = BLOCKS.register("ice_crystal_block", IceCrystalBlock::new);
         //BlockItems
         public static final RegistryObject<Item> RHODIUM_BLOCK_ITEM = ITEMS.register("rhodium_block", () -> new BlockItemBase(RHODIUM_BLOCK.get()));
         public static final RegistryObject<Item> RHODIUM_ORE_ITEM = ITEMS.register("rhodium_ore", () -> new BlockItemBase(RHODIUM_ORE.get()));
@@ -53,7 +54,7 @@ public class Init {
         public static final RegistryObject<Item> CALIFORNIUM_ORE_ITEM = ITEMS.register("californium_ore", () -> new BlockItemBase(CALIFORNIUM_ORE.get()));
         public static final RegistryObject<Item> CALIFORNIUM_BLOCK_ITEM = ITEMS.register("californium_block", () -> new BlockItemBase(CALIFORNIUM_BLOCK.get()));
         public static final RegistryObject<Item> FIRE_CRYSTAL_BLOCK_ITEM = ITEMS.register("fire_crystal_block", () -> new BlockItemBase(FIRE_CRYSTAL_BLOCK.get()));
-
-
+        public static final RegistryObject<Item> ICE_CRYSTAL_BLOCK_ITEM = ITEMS.register("ice_crystal_block", () -> new BlockItemBase(ICE_CRYSTAL_BLOCK.get()));
+        public static final RegistryObject<Item> ICE_STONE_ITEM = ITEMS.register("ice_stone", () -> new BlockItemBase(ICE_STONE.get()));
 
         }
